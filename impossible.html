@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RockPaperSeasors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styling.css">
+  <script type="text/javascript" src="javascriptRPSI.js"></script>
+  <title>RockPaperSeassors</title>
+</head>
+</head>
+<body class="container-fluid" id="xtreme">
+ <a style=" text-decoration: none; color: yellow" href="index.html"><-MENU</a>
+  
+   <div id="randomSlides" class="container" >
+    <div id="basicRules">
+      <p style="color: black;">
+        After you click the "Ready" button,a countdown will begin. 
+When the countdown tells you to "click!!!" , you just click any one of the buttons 'ROCK' 'PAPER' and 'SEASORS'
+      </p>
+    </div>
+         <div class="slide" id="rockSlide">
+          <img class="img" src="rock.jpeg"  >
+         </div>
+         <div class="slide" id="paperSlide" >
+          <img class="img" src="paper.jpg" >
+         </div>
+         <div class="slide" id="seasorsSlide">
+          <img class="img" src="seasors.jpg" >
+         </div> 
+         <div class="slide" id="ques">
+          <img src="ques.jpg">
+         </div>   
+
+   </div>
+   
+
+   <div id="gameButtons">
+    <div id="ReadyAgain">
+    <div id="ready"><button type="button"class="btn btn-primary" id="ready" data-toggle="collapse" data-target="#TimerAndButtons" onclick="startTimer()">READY</button></div>
+
+   <div id="again"><button type="button"class="btn btn-info" id="ready"   onclick="setReady()">AGAIN</button></div> 
+   </div> 
+      
+      <div id="TimerAndButtons" class="collapse">
+
+      <div class="timer">
+           <label id="3">3</label>
+           <label id="2">2</label>
+           <label id="1">1</label>
+           <label id="0">CLICK!!</label>
+
+           <div class="rslt" id="winner"><p>WINNER</p></div>
+           <div class="rslt" id="looser" ><p>LOOSER</p></div>
+           <div id="tie" class="rslt" ><p>TIE</p></div>
+
+         </div>  
+
+      <div id="Buttons" >
+         <button id="rock" button type="button"class="btn btn-primary"  >ROCK </button>
+         <button id="paper" button type="button"class="btn btn-primary">PAPER </button>
+         <button id="seasors" button type="button"class="btn btn-primary">SEASORS </button>
+
+      </div>
+
+      </div>
+
+
+   </div>
+
+</body>
+</html>

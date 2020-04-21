@@ -1,0 +1,302 @@
+.mainBody{
+     
+     
+     background-image: url("rpsBig.jpeg");
+     background-size: 100% 700px;
+}
+.center{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3%;
+}
+#rules{
+	width: 20%;
+	height: 70px;
+	margin-top: 50px;
+	
+}
+#collapseInfo{
+	width: 75%;
+	border:2px solid white;
+	font-size: 29px;
+	font-weight: bolder;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 1s;
+
+
+}
+.selectType{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	margin-top: 4%;
+	display: flex;
+	justify-content: space-between;
+}
+.selectType button{
+	width: 200px;
+	height: 80px;
+}
+.slide
+{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+.img{
+
+	width: 100%;
+	height: 100%;
+}
+#ques img{
+	width: 100%;
+	height: 100%;
+}
+#randomSlides{
+  
+   height: 360px;
+   
+   width: 70%;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 1%;   
+}
+#gameButtons{
+	width: 80%;
+	margin-top: 15px;
+	height: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#ReadyAgain{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-right: auto;
+	margin-left: auto;
+}
+#ready{
+		
+
+}
+#again{
+	
+	display: none;
+	background-color: pink;
+	
+
+}
+#ready button{
+	display: block;
+}
+#again button{
+	display: block;
+}
+#TimerAndButtons{
+	transition: 0s;
+	margin-top: 10px;
+}
+#ready{
+	display: block;
+	width: 200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Buttons{
+	margin-top: 20px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+#Buttons button{
+	width: 200px;
+	height: 60px;
+}
+#rock{background-color: red;}
+#paper{background-color: green;}
+#seasors{background-color: blue;}
+#rock:hover{
+	background-color: lightsalmon;
+}
+#paper:hover{
+	background-color: chartreuse;
+}
+#seasors:hover{
+	background-color: royalblue;
+}
+.timer{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border:2px solid white;
+	margin-top: 30px;
+	border: 2px solid white;
+	height: 80px;
+	background-color: #200000;
+	
+}
+.timer label{
+	transition: 1s;
+	
+	display: none;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	color: white;
+}
+.rslt{
+	transition: 1s;
+	
+	color:white;
+	background-color: #200000;
+	font-size: 40px;
+	color: white;
+	font-weight: bolder;	
+	text-align: center;
+
+	
+}
+#basicRules{
+	font-size: 34px;
+	
+	color: white;
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+
+}
+#winner{
+	display:none;
+	width: 100%;
+	text-align: center;
+}
+#looser {
+ display:none;
+	width: 100%;
+	text-align: center;
+
+}
+#tie{
+    display: none;
+	width: 100%;
+	text-align: center;
+}
+
+#easyback{
+	background-image: url("background.jpg");
+	background-size: 100% 700px;
+}
+#xtreme{
+	background-image: url("cantwin.jpg");
+	background-size: 100% 700px;
+}
+
+
+
+/*MEDIA QUERY BABE for aboutand decide.html*/
+@media only screen and (max-width: 900px) {
+   .center{
+         transition: 1s;
+         width: 100%;
+         margin-top: 13%;       
+   }
+   #rules{
+   	transition: 1s;
+   	font-size: 18px;
+   	height: 46px;
+
+   }
+   #collapseInfo{
+   	transition: 1s;
+	width: 85%;
+	border:1px solid white;
+	font-size: 16px;
+  }
+  .selectType{
+	width: 80%;
+	margin-top: 3%;
+}
+.selectType button{
+	font-size: 16px;
+	width: 140px;
+	height: 50px;
+}
+}
+
+
+
+/*MEDIA FOR EASY.HTML*/
+@media only screen and (max-width: 900px) {
+     #randomSlides{
+     	transition: 1s;
+     	width: 90%;
+     	height: 330px;
+     	margin-top: 
+
+     }
+     #basicRules{
+     	 transition: 1s;
+     	 font-size: 14px;
+     	  width: 90%;
+     }
+     #gameButtons{
+     	transition: 1s;
+     	width: 90%;
+
+     }
+     #ready{
+     	transition: 1s;
+		font-size: 20px;
+		width: 140px;
+		height: 50px;
+        
+      }
+    #again{
+	transition: 1s;
+	font-size: 20px;
+		width: 140px;
+		height: 50px;
+
+	}
+	.timer{
+		transition: 1s;
+		width: 50%;
+		border:1px solid white;
+		height: 70px;
+	}
+	.timer label{font-size: 26px;}
+	.rslt{font-size: 29px;}
+	#Buttons{
+		transition: 1s;
+		width: 94%;
+	}
+	#Buttons button{
+		width: 160px;
+		height: 50px;
+		font-size: 18px;
+	}
+
+}
